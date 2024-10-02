@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet" />
+  </head>
+  <body class="bg-white">
+    <section class="bg-[#fff] py-16">
+      <div class="container mx-auto px-6">
+
+        <!-- Hero Section -->
+        <div class="text-center mb-16 ">
+          <h1
+            class="text-5xl font-extrabold text-gray-800 tracking-tight">Explore
+            Our Latest Articles</h1>
+          <p class="mt-4 text-lg text-gray-600">Get insights, tips, and expert
+            knowledge from our blog.</p>
+          <div class="mt-8">
+            <input type="text" placeholder="Search articles..."
+              class="w-full sm:w-1/2 px-4 py-3 border border-blue-500 rounded-lg shadow-sm ">
+            <button class="px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 text-2xl text-white ml-2"><i
+                class="ri-search-line"></i></button>
+          </div>
+        </div>
+
+        <!-- Featured Post -->
+        <div class="relative mb-16">
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-lg opacity-75"></div>
+          <img
+            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="w-full h-[70vh] object-cover object-no-repeat  rounded-lg shadow-lg">
+          <div class="absolute bottom-10 left-10 text-white">
+            <h2 class="text-4xl font-extrabold mb-3">How to Master Digital
+              Marketing in 2024</h2>
+            <p class="text-lg mb-4">Stay ahead of the competition with these
+              essential strategies for marketing in the digital world...</p>
+            <a href="#"
+              class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition">Read
+              More</a>
+          </div>
+        </div>
+
+        <!-- Blog Post Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+          <!-- Single Post Card -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-b-4 border-red-500 hover:shadow-2xl transition-shadow">
+            <img class="w-full h-52 object-cover rounded-t-lg"
+              src="https://i.pinimg.com/474x/01/f9/a5/01f9a5a15426dd16388a22d913941463.jpg"
+              alt="Post Image">
+            <div class="mt-6">
+              <h3
+                class="text-2xl font-semibold text-gray-800 mb-2 hover:text-blue-500 transition">5
+                Marketing Trends to Watch in 2024</h3>
+              <p class="text-gray-600 mb-4">Explore the most promising trends
+                that will shape the future of marketing...</p>
+              <a href="#"
+                class="inline-block text-blue-600 font-semibold hover:underline">Read
+                More</a>
+            </div>
+          </div>
+
+          <!-- Repeat for other blog posts -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl border-t-4 border-b-4 border-green-500 transition-shadow">
+            <img class="w-full h-52 object-cover rounded-t-lg"
+              src="https://i.pinimg.com/736x/75/15/64/75156471b02572fb55175b7e333cdeba.jpg"
+              alt="Post Image">
+            <div class="mt-6">
+              <h3
+                class="text-2xl font-semibold text-gray-800 mb-2 hover:text-blue-500 transition">How
+                to Boost Your SEO in 2024</h3>
+              <p class="text-gray-600 mb-4">Learn advanced SEO tactics to rank
+                higher on search engines and drive more traffic...</p>
+              <a href="#"
+                class="inline-block text-blue-600 font-semibold hover:underline">Read
+                More</a>
+            </div>
+          </div>
+
+          <!-- Additional blog post cards -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl border-t-4 border-b-4 border-indigo-500 transition-shadow">
+            <img class="w-full h-52 object-cover rounded-t-lg"
+              src="https://i.pinimg.com/736x/9f/45/64/9f45649c5705640786747b6ca893a50f.jpg"
+              alt="Post Image">
+            <div class="mt-6">
+              <h3
+                class="text-2xl font-semibold text-gray-800 mb-2 hover:text-blue-500 transition">The
+                Power of Social Media Business</h3>
+              <p class="text-gray-600 mb-4">Discover how social media can
+                elevate your brand and boost engagement...</p>
+              <a href="#"
+                class="inline-block text-blue-600 font-semibold hover:underline">Read
+                More</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Load More Button -->
+        <div class="text-center mt-16">
+          <button
+            class="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition">Load
+            More Articles</button>
+        </div>
+
+      </div>
+    </section>
+
+  </body>
+</html>
